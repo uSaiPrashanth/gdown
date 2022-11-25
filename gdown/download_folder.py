@@ -25,7 +25,7 @@ folder_type = "application/vnd.google-apps.folder"
 string_regex = re.compile(r"'((?:[^'\\]|\\.)*)'")
 
 
-MAX_NUMBER_FILES = 50
+MAX_NUMBER_FILES = 100
 
 
 class GoogleDriveFile(object):
